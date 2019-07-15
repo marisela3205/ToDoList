@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18265F8622DCCC8C00E217EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18265F8522DCCC8C00E217EE /* AppDelegate.swift */; };
-		18265F8822DCCC8C00E217EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18265F8722DCCC8C00E217EE /* ViewController.swift */; };
 		18265F8B22DCCC8C00E217EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18265F8922DCCC8C00E217EE /* Main.storyboard */; };
 		18265F8E22DCCC8C00E217EE /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18265F8C22DCCC8C00E217EE /* ToDoList.xcdatamodeld */; };
 		18265F9022DCCC8D00E217EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18265F8F22DCCC8D00E217EE /* Assets.xcassets */; };
 		18265F9322DCCC8D00E217EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18265F9122DCCC8D00E217EE /* LaunchScreen.storyboard */; };
+		18265F9D22DCD03A00E217EE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18265F9C22DCD03A00E217EE /* ToDoTableViewController.swift */; };
+		18265F9F22DCD19300E217EE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18265F9E22DCD19300E217EE /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18265F8222DCCC8C00E217EE /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18265F8522DCCC8C00E217EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18265F8722DCCC8C00E217EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18265F8A22DCCC8C00E217EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18265F8D22DCCC8C00E217EE /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		18265F8F22DCCC8D00E217EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18265F9222DCCC8D00E217EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18265F9422DCCC8D00E217EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18265F9C22DCD03A00E217EE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		18265F9E22DCD19300E217EE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		18265F8422DCCC8C00E217EE /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				18265F9C22DCD03A00E217EE /* ToDoTableViewController.swift */,
 				18265F8522DCCC8C00E217EE /* AppDelegate.swift */,
-				18265F8722DCCC8C00E217EE /* ViewController.swift */,
 				18265F8922DCCC8C00E217EE /* Main.storyboard */,
+				18265F9E22DCD19300E217EE /* ToDo.swift */,
 				18265F8F22DCCC8D00E217EE /* Assets.xcassets */,
 				18265F9122DCCC8D00E217EE /* LaunchScreen.storyboard */,
 				18265F9422DCCC8D00E217EE /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18265F8822DCCC8C00E217EE /* ViewController.swift in Sources */,
 				18265F8E22DCCC8C00E217EE /* ToDoList.xcdatamodeld in Sources */,
+				18265F9D22DCD03A00E217EE /* ToDoTableViewController.swift in Sources */,
 				18265F8622DCCC8C00E217EE /* AppDelegate.swift in Sources */,
+				18265F9F22DCD19300E217EE /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
